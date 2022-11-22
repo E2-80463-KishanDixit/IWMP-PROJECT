@@ -1,0 +1,53 @@
+:root{
+  --off-white: #EEEEEE;
+  --plain-white: #ffffff;
+  --plain-black: #000000;
+}
+
+.off-white-section {
+    background-color: var(--off-white);
+}
+
+.black-background {
+    background-color: var(--plain-black);
+}
+
+.color-white {
+    color: var(--plain-white);
+}
+
+.j-1 {
+    background-color: var(--off-white) !important ;
+}
+
+.jumbotron {
+   background-color: var(--plain-white);
+   margin-bottom: 0rem !important;
+}
+
+.member {
+    height: 5vh;
+    width: 28% !important;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.carousel-item img {
+    height: 80vh;
+}
+
+.left-section {
+    width: 50%;
+}
+
+.right-section {
+    width: 30%;
+}
+
+.logo-container {  
+    height: 10vh;
+    width: 10vw;
+    border-radius: 50%;
+    background-color: var(--plain-white);
+}
+
